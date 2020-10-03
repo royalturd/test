@@ -9,7 +9,7 @@ class Config(object):
     OWNER_ID = int(os.environ.get("OWNER_ID", 779289706))
     # Get these values from my.telegram.org
     # to store the channel ID who are authorized to use the bot
-    AUTH_CHANNEL = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "-1231300926").split())
+    AUTH_CHANNEL = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "-1001231300926").split())
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
